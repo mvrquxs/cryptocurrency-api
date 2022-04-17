@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: 0;
+}
+
+:root {
+    
+}
+
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: #1E010B;
+    display: flex;
+    flex-direction: column;
+    box-shadow:
+    inset 0.8px 0 120px #460119ab,  /* left magenta */
+    inset -0.5px 0 120px #8b02329a;; /* right cyan */
+}
+
+.navbar{
+    max-width: 100vw;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+}
+.nav-logo{
+    font-size: 24px;
+    padding-right: 20%;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-logo:hover{
+    transition: ease-in-out 0.3s;
+    font-size: 30px;
+}
+.nav-logo a{
+    color: #FA0505;
+}
+.nav-useful { 
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-useful button{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 30% 60%;
+    border-radius: 8px;
+    background-color: #FA0505;
+    color: #FFFFFF;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    
+}
+.nav-useful button:hover{
+    padding: 30% 70%;
+    background-color: #610000;
+    transition: ease-in-out 0.4s;
+    cursor: pointer;
+}
+.language{
+    width: 50%;
+    display: flex;
+    padding-right: 15%;
+    justify-content: space-evenly;
+    font-size: 0.95em;
+}
+.language span{
+    padding: 0 8% 0 4%;
+}
+.line {
+    /*background-color: white;*/
+    background-color: #f00;
+    height: 0.5px;
+    margin: 0 25% 0 25%;
+    opacity: 20%;
+}
+
+.effect{
+    box-shadow: -3px -3px 25px 3px red, 3px 3px 25px 3px blue;
+}
+
+.spix-main{
+    padding-top: 6.5%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Raleway,sans-serif;
+}
+.spix-main .s-desc{
+    font-family: Roboto, sans-serif;
+    padding: 3% 0;
+    color: #B6B6B6;
+    font-size: 0.9em;
+    text-align: center;
+}
+.spix-main .s-desc:hover{
+    font-size: 1em;
+    transition: ease-in 0.6s;
+}
+.spix-main .s-title{
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+.spix-main .s-title:hover{
+    font-size: 30px;
+    transition: all 0.6s;
+}
+.spix-main .s-started{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.spix-main .s-started button{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: #FA0505;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 400;
+    font-family: Raleway, sans-serif;
+    border-radius: 1em;
+    font-size: 0.8em;
+    color: white;
+    padding: 25% 60%;
+    
+}
+.spix-main .s-started button:hover{
+    background-color: #610000;
+    padding: 25% 80%;
+    transition: ease-in-out 0.4s;
+    cursor: pointer;
+}
+.spix-market{
+    height: 100%;
+    padding: 3% 1% 1% 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card {
+    box-shadow: -3px -3px 25px 3px rgba(255, 0, 0, 0.712), 3px 3px 25px 3px rgba(0, 0, 255, 0.664);
+    color: white;
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 18px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.card:hover{
+    transition: ease-in-out 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    width: 260px;
+    height: 150px;
+}
+.top-side{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+}
+.bottom-side{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.top-left-s{
+    padding-left: 5%;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.top-left-s img{
+    width: 22%;    
+}
+.top-left-s .coin-name{
+    border-radius: 5%;
+    font-size: 11px;
+    background-color: #f2a900;
+    padding: 2%;
+    color: white;
+    
+}
+#eth{
+    background-color: #215CAF;
+}
+.top-right-s{
+    width: 30%;
+    height: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    all: unset;
+}
+.lang-switch{
+    cursor: pointer;
+}
+.api-text-l{
+    display: none;
+}
+.top-right-s .arround{
+    width: 34px;
+    height: 34px;
+    left: 7px;
+    top: 7px;
+    background: #ffffff0a;
+    border-radius: 20px;
+}
+.arround{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arround i{
+    color: #B6B6B6;
+}
+
+.line-02{
+    background: #ecf1f04b;
+    height: 0.1px;
+    margin: 0 5% 0 5%;
+    opacity: 25%;
+}
+.left-side-b {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.left-side-b span{
+    padding: 10% 10% 0% 10%;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 0.95em;
+}
+
+.left-side-b span:nth-child(2){
+    color: #B6B6B6;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+.right-side-b {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 670px){
+    body{
+        box-shadow:
+        inset 0.8px 0 120px #46011938,  /* left magenta */
+        inset -0.5px 0 120px #8b02324d;; /* right cyan */
+    }
+    .nav-useful{
+        display: none;
+    }
+    .spix-main .s-desc {
+        font-family: Roboto, sans-serif;
+        padding: 8% 0 2% 0;
+        color: #B6B6B6;
+        font-size: 0.9em;
+        text-align: center;
+    }
+    .spix-main .s-started button {
+        padding: 30% 75%;
+        margin-bottom: 5%;
+    }
+    .spix-main .s-started button:hover{
+        padding: 30% 90%;
+        margin-bottom: 5%;
+    }
+    .spix-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+    }
+    .spix-main{
+        padding-top: 10%;
+        padding-bottom: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: Raleway,sans-serif;
+    }
+    .s-title h2{
+        font-size: 1em;
+    }
+    .s-title{
+        text-align: center;    
+        padding-bottom: 5%;
+    }
+    .s-started{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    :root{
+        overflow: hidden;
+    }
+    .spix-market{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .s-title{
+        padding: 0 5%;
+    }
+    .card{
+        box-shadow: -3px -3px 20px 3px rgba(255, 0, 0, 0.623), 3px 3px 20px 3px rgba(0, 0, 255, 0.651);
+    }
+    .card:nth-child(2){
+        margin-top: 10%;
+    }
+    .card:nth-child(3){
+        display: none;
+    }
+    .nav-logo{
+        font-size: 30px;
+        padding-right: 20%;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .nav-logo:hover{
+        transition: ease-in-out 0.3s;
+        font-size: 35px;
+    }
+    .api-text-l{
+        text-align: center;
+        display: block;
+        font-size: 0.5em;
+        font-weight: 400;
+    }
+}
+.fa-solid{
+    margin-top: 2.3%;
+}
+.fa-solid:hover{
+    margin-top: 0;
+    font-size: 1.2em;
+    transition: ease-out 0.15s;
+}

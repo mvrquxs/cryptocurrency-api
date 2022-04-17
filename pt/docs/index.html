@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpixTo | Mini Documentation</title>
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="../../assets/styles/doc-sec.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../../assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/5c85e7a360.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        function ball_hide(){
+            $("#ball-float").hide(1000);
+            $(".card-author").show(1000);
+            $(".desc-queries").hide(1000);
+        }
+        function author_hide(){
+            $("#ball-float").show(1000);
+            $(".card-author").hide(1000);
+            $(".desc-queries").show(1000);
+        }
+    </script>
+</head>
+<body>
+    <header class="nav">
+        <div onclick="window.location.href='../';" class="logo-name">
+            <span>Spix<a>To</a></span>
+        </div>
+        <button onclick="window.location.href='https://t.me/mvrquxs';">Support</button>
+    </header>
+    <main class="doc-sec">
+        <div class="desc-spix">
+            <h1>Criando <a>Solicitações</a> para consultas na API</h1>
+            <p>Aprenda os conceitos básicos de criação de solicitações em várias linguagens e obtenha aulas extras.</p>
+        </div>
+       <div class="main-cards-img">
+           <div class="cards">
+            <div onclick="window.location.href='https://lucasmvrquxs.notion.site/Consultando-a-API-com-PHP-cf3e92f841e041afbf53fa94d27a57da';" class="mini-card"><i class="fa-brands fa-firefox"></i><span>Consultando a API com PHP</span></div>
+            <div onclick="window.location.href='https://lucasmvrquxs.notion.site/Passando-par-metros-para-a-API-em-PHP-8e95b95c392840b48f39566139c72e10';" class="mini-card"><i class="fa-brands fa-firefox"></i><span>Passando parâmetros para a API em PHP</span></div>
+            <div onclick="window.location.href='https://lucasmvrquxs.notion.site/Requisi-es-na-API-com-Python-d633ca03e1704b8ab09fe70c396dbca7';" class="mini-card"><i class="fa-brands fa-firefox"></i><span>Requisições na API com Python</span></div>
+            <div onclick="window.location.href='https://lucasmvrquxs.notion.site/Passando-par-metros-para-a-API-em-Python-cf65186aee1b4f90ad0fdb8b56a5acef';" class="mini-card"><i class="fa-brands fa-firefox"></i><span>Passando parâmetros para a API em Python</span></div>
+           </div>
+           <div class="mini-video">
+               <div class="gradient-border">
+                <iframe height="210" src="https://www.youtube.com/embed/pMGHhrFAXao?hl=pt&cc_lang_pref=pt&cc_load_policy=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+           </div>
+       </div> 
+       <div class="desc-queries">
+            <p>Acima você pode encontrar o link para solicitações na API. Parâmetros disponíveis<br>
+            na API são indicados na imagem e nos vídeo extras. Para saber mais, use os links ao lado.</p>
+            <button onclick="window.location.href='../../api';">Ir para a sua URL de requisições</button>
+       </div>
+    </main>
+    <footer>
+        <div onclick="ball_hide();" id="ball-float" class="ball"></div>
+        <div onclick="author_hide();" class="card-author">
+            <div class="card-top">
+                <img src="../../assets/images/author.png" alt="">
+                <a target="_blank" href="https://github.com/mvrquxs"><span>Lucas Marques</span></a>
+            </div>
+            <div class="card-bottom">
+                <span class="c-category">Full Stack Developer</span>
+                <span class="c-peoples"><i class="fa-solid fa-users-gear"></i> <a>+50</a> people have already used</span>
+                <div class="coffe">
+                    <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                    <a target="_blank" href="https://www.buymeacoffee.com/mvrquxsdev"><span>Buy me a coffe</span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
