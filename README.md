@@ -10,7 +10,7 @@
 O objetivo deste projeto é proporcionar um ambiente imersivo em uma API de criptomoedas minimalista e multilinguagem. <br>`A SpixTo é 100% responsiva em todos os dispositivos móveis.`<br>
 
 A API __está hospedada__ em uma instância *EC2 Ubuntu* __nos servidores__ da *Amazon Web Services*<br>
-- [Click here](https://lucasmvrquxs.notion.site/) to view the EN-US version ![USA Flag](https://i.imgur.com/AmI6dX9.png) of this project. <br>
+- [Click here](https://lucasmvrquxs.notion.site/Cryptocurrency-API-Spixto-c936f9e630f749bbaf963c55a2b42f63) to view the EN-US version ![USA Flag](https://i.imgur.com/AmI6dX9.png) of this project. <br>
 <!-- Sobre o projeto SpixTo. -->
 ## Sobre o projeto [SpixTo](https://lucasmarques.cloud/SpixTo)
 
@@ -61,7 +61,7 @@ Caso não possua, instale o XAMPP para simular um ambiente de servidor PHP na m�
 ```sh
 wget https://www.apachefriends.org/xampp-files/8.1.4/xampp-linux-x64-8.1.4-1-installer.run
 chmod +x xampp-linux-x64-8.1.4-1-installer.run
-sudo ./xampp-installer.run
+sudo ./xampp-linux-x64-8.1.4-1-installer.run
 ```
 
 ### Estruturação
