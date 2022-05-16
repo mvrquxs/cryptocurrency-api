@@ -9,7 +9,7 @@
 
 O objetivo deste projeto é proporcionar um ambiente imersivo em uma API de criptomoedas minimalista e multilinguagem. <br>`A SpixTo é 100% responsiva em todos os dispositivos móveis.`<br>
 
-A API __está hospedada__ em uma instância *EC2 Ubuntu* __nos servidores__ da *Amazon Web Services*<br>
+🔊: Ocorreu uma __migração__ da instância que estava __nos servidores da *Amazon Web Services(EC2)*__ para uma __Droplet na Digital Ocean com Ubuntu 20.04 (LTS)__.<br>
 - [Click here](https://lucasmvrquxs.notion.site/Cryptocurrency-API-Spixto-c936f9e630f749bbaf963c55a2b42f63) to view the EN-US version ![USA Flag](https://i.imgur.com/AmI6dX9.png) of this project. <br>
 <!-- Sobre o projeto SpixTo. -->
 ## Sobre o projeto [SpixTo](https://lucasmarques.cloud/SpixTo)
@@ -32,14 +32,14 @@ A SpixTo possui suporte para diversos idiomas. __Isto inclui o Inglês (USA)__. 
 ## Teste de Performance
 ![Performance](https://raw.githubusercontent.com/mvrquxs/cryptocurrency-api/main/screenshots/report-performance.png)
 * Segundo a __Gtmetrix__, até o momento, a SpixTo possui uma das melhores performances no quesito tempo de carregamento. Com incríveis 1.6 segundos, a aplicação consegue ser *carregada completamente*. 
-* Todos os arquivos são __minificados__ usando a [Cloudflare](https://www.cloudflare.com/pt-br/).
+* A SpixTo utiliza o [Certbot](https://certbot.eff.org/) para gerar certificados SSL automaticamente renováveis.
 
 ### Construído com
 
 * ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 * ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 * ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-* ![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+* ![Digital Ocean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white)
 * ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 * ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
